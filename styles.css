@@ -11,7 +11,7 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: var(--navy-900);
+    background: linear-gradient(to bottom, var(--navy-900), var(--navy-800)); /* Gradient from dark to slightly lighter navy */
     color: var(--white);
   }
   
@@ -102,9 +102,17 @@
   
   .tile,
   .list-item {
-    background-color: var(--navy-700);
-    padding: 1rem;
-    border-radius: 4%;
+      background-color: var(--navy-700);
+      padding: 1rem;
+      border-radius: 4%;
+      transition: transform 0.2s ease, background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .tile:hover,
+  .list-item:hover {
+      background-color: var(--navy-600); /* Slightly lighter navy */
+      transform: scale(1.03); /* Slightly increase size */
+      cursor: pointer; /* Indicate clickability */
   }
   
   .tile h2,
@@ -164,4 +172,12 @@
   }
   
   
-  
+.provider-link {
+    text-decoration: none;
+    color: inherit; /* Uses the same color as regular text */
+    font-weight: bold; /* Makes it stand out */
+}
+
+.provider-link:hover {
+    text-decoration: underline; /* Optional: Show underline on hover */
+}
