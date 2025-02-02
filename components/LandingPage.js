@@ -4,6 +4,11 @@ export function renderLandingPage(container) {
   const landing = document.createElement("div")
   landing.className = "landing"
 
+  const logo = document.createElement("img");
+  logo.src = "public/tileshift-logo.png"; // Adjust path if necessary
+  logo.alt = "TileShift Logo";
+  logo.className = "tileshift-logo"; // Add a CSS class for styling
+
   const title = document.createElement("h1")
   title.textContent = "TileShift"
 
@@ -13,6 +18,7 @@ export function renderLandingPage(container) {
 
   const searchForm = createSearchForm()
 
+  landing.appendChild(logo)
   landing.appendChild(title)
   landing.appendChild(missionStatement)
   landing.appendChild(searchForm)
