@@ -14,7 +14,7 @@ function renderApp() {
     renderSearchResults(app, query)
   } else {
     renderLandingPage(app)
-  }
+  } 
 }
 
 renderApp()

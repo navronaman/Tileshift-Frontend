@@ -1,57 +1,7 @@
 import { createSearchForm } from "./SearchForm.js"
+import { fetchBiasData } from "./FetchData.js"
 
-const mockResults = [
-  {
-    id: 1,
-    provider: "CNN",
-    headline: "Breaking News",
-    summary: "This is a summary of the breaking news",
-    biasFactor: -5,
-    reliabilityFactor: 50,
-  },
-  {
-    id: 2,
-    provider: "BBC",
-    headline: "World News",
-    summary: "This is a summary of world news",
-    biasFactor: 2,
-    reliabilityFactor: 55,
-  },
-  {
-    id: 3,
-    provider: "Reuters",
-    headline: "Financial Update",
-    summary: "This is a summary of financial news",
-    biasFactor: 0,
-    reliabilityFactor: 60,
-  },
-  {
-    id: 4,
-    provider: "Al Jazeera",
-    headline: "Middle East Report",
-    summary: "This is a summary of Middle East news",
-    biasFactor: 10,
-    reliabilityFactor: 45,
-  },
-  {
-    id: 5,
-    provider: "Fox News",
-    headline: "Political Analysis",
-    summary: "This is a summary of political analysis",
-    biasFactor: 30,
-    reliabilityFactor: 40,
-  },
-  {
-    id: 6,
-    provider: "Associated Press",
-    headline: "Technology Trends",
-    summary: "This is a summary of technology trends",
-    biasFactor: -2,
-    reliabilityFactor: 58,
-  },
-]
-
-export function renderSearchResults(container, query) {
+export async function renderSearchResults(container, query) {
   container.innerHTML = ""
 
   const header = document.createElement("header")
@@ -98,27 +48,34 @@ export function renderSearchResults(container, query) {
   const resultsContainer = document.createElement("div")
   resultsContainer.className = "results-grid"
 
-  function renderResults(viewType) {
-    resultsContainer.innerHTML = ""
-    resultsContainer.className = viewType === "tile" ? "results-grid" : "results-list"
+  try {
+    const results = await fetchBiasData(query); // fetchBiasData is not defined
+    console.log(results);
 
-    mockResults.forEach((result) => {
-      const resultElement = document.createElement("div")
-      resultElement.className = viewType === "tile" ? "tile" : "list-item"
-
-      resultElement.innerHTML = `
-                <h2>${result.headline}</h2>
-                <p class="provider">${result.provider}</p>
-                <p class="summary">${result.summary}</p>
-                <div class="factors">
-                    <span>Bias: ${result.biasFactor}</span>
-                    <span>Reliability: ${result.reliabilityFactor}</span>
-                </div>
-            `
-
-      resultsContainer.appendChild(resultElement)
-    })
-  }
+    function renderResults(viewType) {
+        resultsContainer.innerHTML = "";
+        resultsContainer.className = viewType === "tile" ? "results-grid" : "results-list";
+  
+        results.forEach((result) => {
+          const resultElement = document.createElement("div");
+          resultElement.href = result.link; // link 
+          resultElement.target = "_blank";
+          resultElement.className = viewType === "tile" ? "tile" : "list-item";
+          resultElement.style.textDecoration = "none";
+  
+          resultElement.innerHTML = `
+                    <h2>${result.headline}</h2>
+                    <p class="provider"><>${result.Provider}</p>
+                    <p class="summary">${result.summary}</p>
+                    <div class="factors">
+                        <span>Bias: ${result.biasFactor}</span>
+                        <span>Reliability: ${result.reliabilityFactor}</span>
+                    </div>
+                `;
+  
+          resultsContainer.appendChild(resultElement);
+        });        
+    }
 
   renderResults("tile")
 
@@ -139,5 +96,23 @@ export function renderSearchResults(container, query) {
 
   container.appendChild(header)
   container.appendChild(main)
+} catch (error) {
+    console.error("Rendering Error:", error.message);
+
+    // Create an error message box inside the current page
+    const errorContainer = document.createElement("div");
+    errorContainer.className = "error-container";
+    errorContainer.innerHTML = `
+        <h1>Error Occurred</h1>
+        <p>${error.message}</p>
+        <button class="retry-button">Retry</button>
+    `;
+
+    container.appendChild(errorContainer);
+
+    document.querySelector(".retry-button").addEventListener("click", () => {
+        location.reload();
+    });
+}
 }
 

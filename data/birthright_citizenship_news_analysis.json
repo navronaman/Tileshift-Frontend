@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://www.whitehouse.gov/presidential-actions/2025/01/protecting-the-meaning-and-value-of-american-citizenship/",
+        "Provider": "Official Government Source",
+        "headline": "Protecting The Meaning And Value Of American Citizenship – The White House",
+        "summary": "Executive order clarifies citizenship criteria, excluding automatic citizenship for children of unlawful or temporary residents based on parents' status at birth.",
+        "biasFactor": 10,
+        "reliabilityFactor": 50
+    },
+    {
+        "link": "https://apnews.com/article/birthright-citizenship-donald-trump-lawsuit-immigration-9ac27b234c854a68a9b9f8c0d6cd8a1c",
+        "Provider": "Associated Press",
+        "headline": "Judge temporarily blocks Trump’s executive order redefining birthright citizenship | AP News",
+        "summary": "A federal judge has temporarily blocked President Trump's executive order aimed at ending birthright citizenship, deeming it unconstitutional. The order sought to deny citizenship to children of parents without legal status, sparking legal challenges from multiple states and rights groups.",
+        "biasFactor": -19,
+        "reliabilityFactor": 40
+    },
+    {
+        "link": "https://www.cnn.com/2025/01/31/americas/birthright-citizenship-america-analysis-intl-latam/index.html",
+        "Provider": "CNN",
+        "headline": "Birthright citizenship: Why the 'right of soil' is so big in the Americas | CNN",
+        "summary": "The article discusses the principle of birthright citizenship, its historical roots in the Americas, and its comparison to other regions. It explains how the 'right of soil' principle was introduced by European colonizers and evolved differently in North and South America compared to other parts of the world.",
+        "biasFactor": -10,
+        "reliabilityFactor": 58
+    },
+    {
+        "link": "https://www.bbc.com/news/articles/c7vdnlmgyndo",
+        "Provider": "BBC",
+        "headline": "Can Trump revoke birthright citizenship?",
+        "summary": "President Trump signed an executive order to end birthright citizenship, but legal scholars argue it's unconstitutional and faces significant legal challenges.",
+        "biasFactor": -19,
+        "reliabilityFactor": 62
+    },
+    {
+        "link": "https://apnews.com/article/birthright-citizenship-trump-executive-order-immigrants-fc7dd75ba1fb0a10f56b2a85b92dbe53",
+        "Provider": "Associated Press",
+        "headline": "22 states sue to stop Trump's order blocking birthright citizenship | AP News",
+        "summary": "22 states and several cities filed lawsuits to block President Trump's executive order ending birthright citizenship, arguing it violates the 14th Amendment. The order, signed on Jan. 20, 2025, would deny automatic citizenship to children born to noncitizen parents. Attorneys general and immigrant rights groups claim the move is unconstitutional and harmful to American families.",
+        "biasFactor": -19,
+        "reliabilityFactor": 62
+    }
+]

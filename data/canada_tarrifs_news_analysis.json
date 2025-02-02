@@ -1,0 +1,74 @@
+[
+    {
+        "link": "https://www.bbc.com/news/articles/cn4z23kndlyo",
+        "Provider": "BBC",
+        "headline": "Canada tariffs: Trudeau hits back against Trump with 25% levy",
+        "summary": "Canada imposes 25% retaliatory tariffs on $106.6bn worth of US goods in response to Trump's tariffs, targeting items like beer, wine, and household appliances, with potential economic impacts on both countries.",
+        "biasFactor": 5,
+        "reliabilityFactor": 62
+    },
+    {
+        "link": "https://www.bbc.com/news/articles/c627nx42xelo",
+        "Provider": "BBC",
+        "headline": "US taxes imports from Canada, Mexico and China as Trump's tariffs begin",
+        "summary": "The US imposes tariffs on imports from Canada, Mexico, and China, prompting vows of retaliation. The tariffs aim to address concerns over illegal immigration and drug trafficking, with potential economic impacts on trade and consumer prices.",
+        "biasFactor": 5,
+        "reliabilityFactor": 40
+    },
+    {
+        "link": "https://www.whitehouse.gov/fact-sheets/2025/02/fact-sheet-president-donald-j-trump-imposes-tariffs-on-imports-from-canada-mexico-and-china/",
+        "Provider": "Official Government Source",
+        "headline": "Fact Sheet: President Donald J. Trump Imposes Tariffs on Imports from Canada, Mexico and China – The White House",
+        "summary": "President Trump imposes tariffs on imports from Canada, Mexico, and China, citing national emergency and commitment to border security and trade policy.",
+        "biasFactor": 19,
+        "reliabilityFactor": 24
+    },
+    {
+        "link": "https://www.privacyshield.gov/ps/article?id=Canada-Import-Tariffs#:~:text=Canada%20%2D%20Import%20TariffsCanada%20%2D%20Import%20Tariffs&text=Although%20Canada%20eliminated%20tariffs%20on,dairy%20and%20poultry%20tariff%20lines.",
+        "Provider": "Official Government Source",
+        "headline": "Canada - Import Tariffs | Privacy Shield",
+        "summary": "Canada eliminated tariffs on most goods, except dairy and poultry. The U.S. Department of Commerce manages the Privacy Shield framework.",
+        "biasFactor": 0,
+        "reliabilityFactor": 40
+    },
+    {
+        "link": "https://www.cnn.com/2025/02/01/economy/trump-tariffs-mexico-canada-china-increased-costs/index.html",
+        "Provider": "CNN",
+        "headline": "Here’s what will get more expensive from Trump’s tariffs on Mexico, Canada and China | CNN Business",
+        "summary": "Trump imposes 25% tariffs on Mexico and most Canadian goods, 10% on Chinese imports, affecting fruits, vegetables, gas, autos, electronics, and more. Economists warn of price hikes for consumers and supply chain disruptions.",
+        "biasFactor": -19,
+        "reliabilityFactor": 40
+    },
+    {
+        "link": "https://apnews.com/article/trump-tariffs-trade-china-mexico-canada-inflation-753a09d56cd318f2eb1d2efe3c43b7d4",
+        "Provider": "Associated Press",
+        "headline": "President Trump signs order to impose tariffs on Canada, Mexico and China | AP News",
+        "summary": "President Trump imposes tariffs on Canada, Mexico, and China, prompting retaliation and concerns over economic impact.",
+        "biasFactor": -10,
+        "reliabilityFactor": 55
+    },
+    {
+        "link": "https://www.aljazeera.com/news/2025/2/2/trump-imposes-tariffs-on-mexico-canada-and-china",
+        "Provider": "Al Jazeera",
+        "headline": "Trump imposes tariffs on Mexico, Canada and China | Donald Trump News | Al Jazeera",
+        "summary": "Trump imposes 25% tariffs on Canada and Mexico, 10% on China, citing a national emergency. Canada and Mexico retaliate with matching tariffs, warning of economic consequences.",
+        "biasFactor": -19,
+        "reliabilityFactor": 40
+    },
+    {
+        "link": "https://apnews.com/article/trump-tariffs-china-canada-mexico-fentanyl-e526616cdcb7fc596ed999cb89ee2265",
+        "Provider": "Associated Press",
+        "headline": "Trump says he'll place tariffs on Canada, Mexico and China on Saturday | AP News",
+        "summary": "President Trump imposes 25% tariffs on Canada and Mexico, and 10% on China, effective Saturday. This may increase prices for U.S. consumers and draw retaliation.",
+        "biasFactor": -10,
+        "reliabilityFactor": 40
+    },
+    {
+        "link": "https://www.whitehouse.gov/fact-sheets/2025/02/fact-sheet-president-donald-j-trump-imposes-tariffs-on-imports-from-canada-mexico-and-china/#:~:text=Fact%20Sheets-,Fact%20Sheet%3A%20President%20Donald%20J.%20Trump%20Imposes%20Tariffs%20on%20Imports,from%20Canada%2C%20Mexico%20and%20China&text=ADDRESSING%20AN%20EMERGENCY%20SITUATION%3A%20The,Economic%20Powers%20Act%20(IEEPA).",
+        "Provider": "Official Government Source",
+        "headline": "Fact Sheet: President Donald J. Trump Imposes Tariffs on Imports from Canada, Mexico and China – The White House",
+        "summary": "President Trump imposes tariffs on imports from Canada, Mexico, and China, citing a national emergency due to illegal aliens and drugs, leveraging economic powers to secure borders.",
+        "biasFactor": 19,
+        "reliabilityFactor": 40
+    }
+]

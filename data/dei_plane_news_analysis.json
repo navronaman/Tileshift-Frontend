@@ -1,0 +1,66 @@
+[
+    {
+        "link": "https://www.theguardian.com/us-news/2025/jan/30/trump-washington-dc-plane-crash-dei",
+        "Provider": "The Guardian",
+        "headline": "Trump baselessly blames DEI and Democrats for Washington DC plane crash | Washington DC plane crash | The Guardian",
+        "summary": "President Trump blamed DEI policies and Democrats for a plane crash in Washington DC, despite no evidence. He and his officials suggested hiring based on competence, sparking criticism from Democrats.",
+        "biasFactor": -5,
+        "reliabilityFactor": 40
+    },
+    {
+        "link": "https://apnews.com/article/plane-crash-washington-dc-trump-dei-claims-3ac5486ec594d81e919e8ebbd9733869",
+        "Provider": "Associated Press",
+        "headline": "What Trump said about the DC plane crash and his claims about DEI | AP News",
+        "summary": "Trump suggests diversity efforts may have caused a plane crash without evidence, prompting criticism and questions from reporters.",
+        "biasFactor": 10,
+        "reliabilityFactor": 40
+    },
+    {
+        "link": "https://www.bbc.com/news/articles/cpvmdm1m7m9o",
+        "Provider": "BBC",
+        "headline": "Combative Trump blames DEI policies after air tragedy",
+        "summary": "Donald Trump speculated on DEI policies' role in an air tragedy, drawing criticism for politicizing the event without evidence. He faced backlash from disability groups and political opponents for his comments.",
+        "biasFactor": 19,
+        "reliabilityFactor": 62
+    },
+    {
+        "link": "https://www.cbsnews.com/news/watch-live-trump-to-speak-on-dc-plane-crash/",
+        "Provider": "CBS",
+        "headline": "Trump speaks about D.C. plane crash and points blame at DEI - CBS News",
+        "summary": "President Trump addressed the fatal D.C. plane crash, blaming DEI policies and vowing to investigate. No survivors; recovery operations underway.",
+        "biasFactor": 19,
+        "reliabilityFactor": 24
+    },
+    {
+        "link": "https://www.cbsnews.com/news/trump-dei-diversity-policies-plane-crash/",
+        "Provider": "CBS",
+        "headline": "Trump criticized DEI and the FAA's diversity policies after a deadly plane crash. Here's what we know. - CBS News",
+        "summary": "Trump criticized FAA's diversity policies, suggesting without evidence they caused a plane crash. Experts and officials say no evidence links DEI initiatives to the crash, which remains under investigation.",
+        "biasFactor": -10,
+        "reliabilityFactor": 40
+    },
+    {
+        "link": "https://apnews.com/article/plane-crash-faa-trump-dei-diversity-cc629bb66fb9afdad01c5ad735ca3cbb",
+        "Provider": "Associated Press",
+        "headline": "Trump targets FAA diversity efforts in plane crash probe despite no evidence they played any role | AP News",
+        "summary": "Trump blames FAA diversity efforts for plane crash without evidence, sparking criticism from Democrats and civil rights groups.",
+        "biasFactor": -15,
+        "reliabilityFactor": 58
+    },
+    {
+        "link": "https://www.cnbc.com/2025/01/30/trump-lashes-out-at-biden-dei-efforts-after-dc-plane-crash.html",
+        "Provider": "CNBC",
+        "headline": "Plane crash: Trump blames DEI, Biden",
+        "summary": "A plane crash in DC led to 67 deaths. Trump linked the tragedy to DEI policies without evidence, sparking criticism from officials like Buttigieg and Omar. The NTSB is investigating.",
+        "biasFactor": -19,
+        "reliabilityFactor": 40
+    },
+    {
+        "link": "https://www.cnn.com/2025/01/31/business/dei-trump-on-plane-crash/index.html",
+        "Provider": "CNN",
+        "headline": "With no evidence, Trump blamed DEI for a plane crash | CNN Business",
+        "summary": "Trump blames DEI for a plane crash without evidence, while businesses and experts defend DEI's benefits, citing improved performance and talent acquisition.",
+        "biasFactor": -19,
+        "reliabilityFactor": 40
+    }
+]
