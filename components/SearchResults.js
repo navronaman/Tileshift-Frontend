@@ -104,8 +104,8 @@ export async function renderSearchResults(container, query) {
                     </p>
                     <p class="summary">${result.summary}</p>
                     <div class="factors">
-                        <span>Bias: ${result.biasFactor}</span>
-                        <span>Reliability: ${result.reliabilityFactor}</span>
+                        <span><strong>Bias: </strong>${result.biasFactor}</span>
+                        <span><strong>Reliability: </strong>${result.reliabilityFactor}</span>
                     </div>                `
                 ;
   
